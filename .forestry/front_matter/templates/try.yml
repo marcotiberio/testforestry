@@ -1,4 +1,10 @@
 ---
 label: TRY
 hide_body: true
-fields: []
+fields:
+- name: post_title
+  type: text
+  config:
+    required: false
+  label: Post Title
+  description: Here you can write your post
